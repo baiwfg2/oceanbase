@@ -131,7 +131,7 @@ namespace oceanbase
       char table_section[OB_MAX_TABLE_NAME_LENGTH];
       const char* table_name = NULL;
 
-      if (NULL == syntax_file || '\0' == syntax_file || NULL == schema)
+      if (NULL == syntax_file || NULL == syntax_file || NULL == schema)
       {
         TBSYS_LOG(ERROR,"syntax_file is null");
         ret = OB_ERROR;

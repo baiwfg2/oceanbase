@@ -64,6 +64,7 @@ namespace oceanbase
         return ret;
       }
 
+      /*
       uint8_t get_time_type(int32_t vtype)
       {
         uint8_t type = 0;
@@ -89,6 +90,7 @@ namespace oceanbase
         }
         return type;
       }
+      */
 
       void set_time_type(ObObj& obj,uint8_t vtype,int64_t v,bool is_add)
       {

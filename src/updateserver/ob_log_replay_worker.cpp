@@ -82,11 +82,8 @@ namespace oceanbase
     int64_t ObLogReplayWorker::to_string(char* buf, const int64_t len) const
     {
       int64_t pos = 0;
-      if (NULL != this)
-      {
-        databuff_printf(buf, len, pos, "ReplayWorker(rp=%s, next_/submit/commit/flush=%ld/%ld/%ld, barrier=%ld, err_=%d)",
+      databuff_printf(buf, len, pos, "ReplayWorker(rp=%s, next_/submit/commit/flush=%ld/%ld/%ld, barrier=%ld, err_=%d)",
                         to_cstring(replay_cursor_), next_submit_log_id_, next_commit_log_id_, next_flush_log_id_, last_barrier_log_id_, err_);
-      }
       return pos;
     }
 

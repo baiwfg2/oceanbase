@@ -168,8 +168,8 @@ namespace oceanbase
       int timeout_check();
 
     private:
-      static const int64_t MAX_STAGE_OPERATION_COUNT = 16;
-      static const double MAX_SIZE_RATIO_AFTER_TOPK = 0.25;
+      static constexpr int64_t MAX_STAGE_OPERATION_COUNT = 16;
+      static constexpr double MAX_SIZE_RATIO_AFTER_TOPK = 0.25;
 
       //query param
       bool inited_;

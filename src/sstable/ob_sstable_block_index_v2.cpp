@@ -577,6 +577,7 @@ namespace oceanbase
               break;
             case OB_SEARCH_MODE_LESS_THAN:
               --find_it;
+              // fall through
             case OB_SEARCH_MODE_LESS_EQUAL:
               if (*find_it != entry)
               {

@@ -1420,10 +1420,12 @@ static double my_strtod_int(const char *s00, char **se, int *error, char *buf, s
     switch (*s) {
     case '-':
       sign= 1;
+      // fall through
       /* no break */
     case '+':
       s++;
       goto break2;
+      // fall through
  case '\t':
     case '\n':
     case '\v':
@@ -1510,8 +1512,10 @@ static double my_strtod_int(const char *s00, char **se, int *error, char *buf, s
       switch (c= *s) {
       case '-':
         esign= 1;
+        // fall through
       case '+':
         c= *++s;
+        // fall through
       }
     if (s < end && c >= '0' && c <= '9')
     {
@@ -2403,6 +2407,7 @@ static char *dtoa(double dd, int mode, int ndigits, int *decpt, int *sign,
     break;
   case 2:
     leftright= 0;
+    // fall through
     /* no break */
   case 4:
     if (ndigits <= 0)
@@ -2411,6 +2416,7 @@ static char *dtoa(double dd, int mode, int ndigits, int *decpt, int *sign,
     break;
   case 3:
     leftright= 0;
+    // fall through
     /* no break */
   case 5:
     i= ndigits + k + 1;
@@ -2418,6 +2424,7 @@ static char *dtoa(double dd, int mode, int ndigits, int *decpt, int *sign,
     ilim1= i - 1;
     if (i <= 0)
       i= 1;
+    // fall through
   }
   s= s0= dtoa_alloc(i, &alloc);
 

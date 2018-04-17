@@ -341,7 +341,9 @@ namespace oceanbase
             break;
           case GET_NEXT_ROW:
             TBSYS_LOG(WARN, "invalid internal state(GET_NEXT_ROW) in get_cell()");
+            // fall through
           case ITERATE_END:
+            // fall through
           default:
             null_cell_info_.reset();
             *cell_info = &null_cell_info_;

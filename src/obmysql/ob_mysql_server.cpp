@@ -3234,7 +3234,7 @@ namespace oceanbase
       uint8_t code = packet.get_type();
       if (COM_STMT_EXECUTE != code)//stmt execute will store prepare sql in ObSql::stmt_execute
       {
-        if (COM_QUERY == code || COM_STMT_PREPARE)
+        if (COM_QUERY == code || int(COM_STMT_PREPARE))
         {
           ret = context.session_info_->store_query_string(packet.get_command());
         }
