@@ -115,8 +115,6 @@ namespace oceanbase
       struct CurFreezeParam
       {
         typedef FreezeParamV4 FreezeParam;
-        FreezeParamHeader header;
-        FreezeParam param;
         CurFreezeParam()
         {
           memset(this, 0, sizeof(CurFreezeParam));
@@ -150,6 +148,8 @@ namespace oceanbase
           }
           return ret;
         };
+        FreezeParam param;
+        FreezeParamHeader header;
       };
       struct DropParamHeader
       {
@@ -165,13 +165,13 @@ namespace oceanbase
       };
       struct CurDropParam
       {
-        DropParamHeader header;
-        DropParamV1 param;
         CurDropParam()
         {
           memset(this, 0, sizeof(CurDropParam));
           header.version = 1;
         };
+        DropParamV1 param;
+        DropParamHeader header;
       };
 
       public:
