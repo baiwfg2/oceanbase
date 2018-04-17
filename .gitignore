@@ -1,0 +1,4 @@
+# Ignore subversion meta directories
+.svn/
+tags
+*.swp
