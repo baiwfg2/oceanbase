@@ -64,6 +64,7 @@ int ObStmt::add_table_item(
               "table '%.*s' must not alias the same name", table_name.length(), table_name.ptr());
           break;
         }
+        break;
         /* go through */
       case TableItem::BASE_TABLE:
         item.ref_id_ = schema_checker->get_local_table_id(table_name);

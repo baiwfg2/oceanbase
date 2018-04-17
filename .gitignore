@@ -19,3 +19,11 @@ Makefile
 config.log
 config.status
 libtool
+
+svn_version.c
+svn_version.cpp
+*.o
+*.la
+*.lo
+*.a
+.libs

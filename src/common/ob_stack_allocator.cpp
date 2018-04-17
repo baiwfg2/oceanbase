@@ -136,7 +136,7 @@ namespace oceanbase
 
     int64_t StackAllocator::Block::remain() const
     {
-      return NULL == this? -1: limit_ - pos_;
+      return limit_ - pos_;
     }
 
     int StackAllocator::init(ObIAllocator* allocator, const int64_t block_size)

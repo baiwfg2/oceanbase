@@ -138,6 +138,7 @@ namespace oceanbase
             /* then get through */
           }
         }
+        break;
         case ObStmt::T_SELECT:
         {
           if (stmts_[0]->get_stmt_type() == ObBasicStmt::T_SELECT)

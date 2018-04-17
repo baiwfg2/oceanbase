@@ -469,6 +469,7 @@ int resolve_expr(
     }
     case T_CUR_TIME_UPS:
       logical_plan->set_cur_time_fun_ups(); // same as T_CUR_TIME, except run cur time on ups
+      break;
     case T_CUR_TIME:
     {
       logical_plan->set_cur_time_fun(); // do nothing if called after set_cur_time_fun_ups()
@@ -704,6 +705,7 @@ int resolve_expr(
             "EXISTS expression can not appear in INSERT/UPDATE statement");
         break;
       }
+      break;
     case T_OP_POS:
     case T_OP_NEG:
     case T_OP_NOT:

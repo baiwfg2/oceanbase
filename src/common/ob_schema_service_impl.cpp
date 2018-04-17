@@ -356,6 +356,7 @@ int ObSchemaServiceImpl::alter_table_mutator(const AlterTableSchema& table_schem
               max_column_id = alter_column.column_.column_id_;
             }
           }
+          break;
         case AlterTableSchema::MOD_COLUMN:
           {
             // add column succ
