@@ -384,7 +384,7 @@ namespace oceanbase
       }
       else
       {
-        memset(all_sub_options, 0, sizeof(all_sub_options));
+        memset(all_sub_options, 0, sizeof(char*));
         for (int i = 0; i < local_num; ++i)
         {
           all_sub_options[i] = SUB_OPTIONS[i];

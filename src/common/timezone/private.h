@@ -297,7 +297,7 @@ time(time_t *p)
 ** Private function declarations.
 */
 
-char *		icatalloc(char * old, const char * new);
+char *		icatalloc(char * old, const char * newer);
 char *		icpyalloc(const char * string);
 const char *	scheck(const char * string, const char * format);
 

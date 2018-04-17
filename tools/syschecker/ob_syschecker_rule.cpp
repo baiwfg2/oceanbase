@@ -1091,6 +1091,7 @@ namespace oceanbase
             op_param.is_wide_table_ = false;
           }
         }
+        // fall through
         //no break, go through
 
       case GEN_SPECIFIED:
@@ -1173,6 +1174,7 @@ namespace oceanbase
             op_param.row_count_ = random_num % (MAX_INVALID_ROW_COUNT - 1) + 1;
           }
         }
+        // fall through
         //go through
 
       case GEN_SPECIFIED:
