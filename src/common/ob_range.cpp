@@ -19,7 +19,7 @@
 #include <tbsys.h>
 #include <string.h>
 #include "utility.h"
-#include <ob_string_buf.h>
+#include "ob_string_buf.h"
 
 namespace oceanbase 
 { 
