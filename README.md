@@ -1,3 +1,48 @@
+# Motive
+
+When I first clone oceanbase 0.4 from github.com/alibaba/oceanbase, I found it's not well structured and 
+intermediate files and exectuables are scattered within the whole project, which is not good. So I plan 
+to replace automake with cmake, which is a much cleaner and powerful tool. Furthormore, some codes in 
+this version are not normative. Maybe strict code review was not enforced at that development time. 
+Since gcc 7.2 is being used, I made the code compilable with gcc 7.2. Many warnings exists if -Wall
+is on, but that's the later work to eliminate them.
+
+Currently RootServer, UpdateServer, ProxyServer, MergeServer and their corresponding static libraries
+can be successfully built with cmake and gcc 7.2.
+
+# Build
+
+Original flags options seems to be very strict on gcc 7.2, which will lead to plenty of warnings with 
+-Wall, or even error with -Werror. Maybe it's safe on gcc 4.x, but apparently not on gcc 7.x. So in 
+order to compile OK, I remove -Wall and -Werror for the moment, which makes cmake building much quieter.
+Anyway I'll fix those warnings when available.
+
+So building with cmake is quite easier, just do :
+
+```
+cd oceanbase
+mkdir build; cd build
+cmake .. -DTBLIB_ROOT=... -DEASY_ROOT=...(DRC_ROOT is not needed, actually I even don't know what DRC means)
+make
+```
+After a period of time based on your machine's speed, you'll see static libraries in build/lib and 
+exectuables in build/bin
+
+# Warning 
+
+Currently I just use as lease build options as I can to make building good. If some exectuable need special
+options to make running normally, you should use them. Options I use for now comes from Makefiles generated
+by `sh build.sh init && ./configure && make`. ALL FLAGS are exported into [flags.md](./flags.md) when reference
+is needed. Of course you can use automake's way to generate them.
+
+Building with cmake is only tested on Centos 7.x.
+
+Porting processs article could be found at [OceanBase 0.4 从automake,gcc 4.x到cmake,gcc7.x](https://zhuanlan.zhihu.com/p/35833750)
+
+Have fun ~
+
+***
+
 <p> <img src="https://raw.github.com/alibaba/oceanbase/oceanbase_0.3/doc/%E5%9B%BE%E7%89%87%E5%A4%B9/logo.jpg">
 </p>
 <font size=5><div align="right"><a href="https://github.com/alibaba/oceanbase/wiki/EN_Home">English Version</a></div>

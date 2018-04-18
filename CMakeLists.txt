@@ -38,9 +38,9 @@ link_directories(${CMAKE_BINARY_DIR}/lib
 
 include_directories(
         src 
-        /opt/tbsys-tbnet/include/tbsys
-        /opt/tbsys-tbnet/include/tbnet
-        /opt/libeasy/include/easy
+        ${TBLIB_ROOT}/include/tbsys
+        ${TBLIB_ROOT}/include/tbnet
+        ${EASY_ROOT}/include/easy
         )
 
 add_subdirectory(src)
