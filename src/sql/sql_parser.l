@@ -44,7 +44,7 @@ do \
 
 #ifdef __cplusplus
 extern "C"
-inline unsigned char escaped_char(unsigned char c)
+unsigned char escaped_char(unsigned char c)
 {
   switch (c)
   {
