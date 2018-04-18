@@ -42,6 +42,8 @@ do \
   } \
 } while (0)
 
+#ifdef __cplusplus
+extern "C"
 inline unsigned char escaped_char(unsigned char c)
 {
   switch (c)
@@ -60,6 +62,7 @@ inline unsigned char escaped_char(unsigned char c)
       return c;
   }
 }
+#endif
 
 /* quote_type: 0 - single quotes; 1 - double quotation marks */
 int64_t parse_string(const char* src, char* dest, int64_t len, int quote_type)
