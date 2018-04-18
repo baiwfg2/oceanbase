@@ -1,0 +1,13 @@
+add_subdirectory(common)
+add_subdirectory(sql)
+add_subdirectory(lsync)
+add_subdirectory(obmysql)
+add_subdirectory(sstable)
+add_subdirectory(compactsstable)
+add_subdirectory(compactsstablev2)
+
+add_subdirectory(chunkserver)
+add_subdirectory(proxyserver)
+add_subdirectory(mergeserver)
+add_subdirectory(updateserver)
+add_subdirectory(rootserver)
