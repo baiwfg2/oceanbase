@@ -46,7 +46,7 @@ OB_SQL_CPP_START
 #include "ob_sql_init.h"
 #include "ob_sql_real_func.h"
 #include <pthread.h>
-#include <string.h>
+#include <cstring>
 #include "ob_sql_select_method_impl.h"
 #include "ob_sql_struct.h"
 #include "ob_sql_global.h"

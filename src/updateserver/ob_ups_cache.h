@@ -21,7 +21,7 @@
 #define  OCEANBASE_UPDATESERVER_UPSCACHE_H_
 
 
-#include <string.h>
+#include <cstring>
 #include "common/ob_object.h"
 #include "common/ob_define.h"
 #include "common/ob_kv_storecache.h"

@@ -14,13 +14,13 @@
  *     -some work detail if you want
  *
  */
-#include <stdio.h>
-#include <stdlib.h>
+#include <cstdio>
+#include <cstdlib>
 #include <stdarg.h>
 #include <mysql/mysql.h>
 #include <unistd.h>
 #include <errno.h>
-#include <string.h>
+#include <cstring>
 #define SELECT_SAMPLE "select * from test where c1=?"
 
 char * get_query_sql(int num)

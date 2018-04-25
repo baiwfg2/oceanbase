@@ -6,7 +6,7 @@
 #include "ob_sql_cluster_config.h"
 #include "ob_sql_util.h"
 #include <mysql/mysql.h>
-#include <string.h>
+#include <cstring>
 
 static void *update_global_config(void *arg)
 {

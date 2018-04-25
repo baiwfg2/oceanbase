@@ -23,12 +23,12 @@
 
 #include <tbsys.h>
 
-#include <stdlib.h>
-#include <stdio.h>
+#include <cstdlib>
+#include <cstdio>
 #include <sys/types.h>
 #include <sys/stat.h>
 #include <unistd.h>
-#include <string.h>
+#include <cstring>
 #include <assert.h>
 #include <errno.h>
 #include <dirent.h>

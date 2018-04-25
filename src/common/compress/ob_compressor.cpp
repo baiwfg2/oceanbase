@@ -11,9 +11,9 @@
  *   huating <huating.zmq@taobao.com>
  *
  */
-#include <stdlib.h>
+#include <cstdlib>
 #include <stdint.h>
-#include <stdio.h>
+#include <cstdio>
 #include <dlfcn.h>
 #include "ob_compressor.h"
 

@@ -17,7 +17,7 @@
  //
 ////====================================================================
 
-#include <stdlib.h>
+#include <cstdlib>
 #include "tblog.h"
 #include "ob_malloc.h"
 #include "ob_regex.h"

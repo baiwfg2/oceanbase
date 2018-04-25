@@ -1,10 +1,10 @@
 #include "ob_sql_util.h"
-#include <stdio.h>
+#include <cstdio>
 #include <netinet/in.h>
 #include <sys/socket.h>
 #include <netdb.h>
 #include <arpa/inet.h>
-#include <string.h>
+#include <cstring>
 #include "tblog.h"
 #include "ob_sql_global.h"
 

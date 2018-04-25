@@ -23,7 +23,7 @@
  * 列表
  */
 #include "ob_sql_define.h"
-#include <string.h>
+#include <cstring>
 #include <stdint.h>
 OB_SQL_CPP_START
 enum ObSQLListType

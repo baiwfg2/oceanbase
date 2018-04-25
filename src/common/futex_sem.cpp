@@ -15,7 +15,7 @@
 #include <errno.h>
 #include <stdint.h>
 #include <limits.h>
-#include <string.h>
+#include <cstring>
 #include <unistd.h>
 #include <sys/syscall.h>
 #include <linux/futex.h>

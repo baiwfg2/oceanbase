@@ -4,7 +4,7 @@
 #include "common/ob_string.h"
 #include "common/ob_postfix_expression.h"
 #include "common/hash/ob_hashutils.h"
-#include <string.h>
+#include <cstring>
 namespace oceanbase
 {
   namespace mergeserver

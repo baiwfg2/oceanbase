@@ -17,8 +17,8 @@
 #ifndef OCEANBASE_COMMON_SERIALIZATION_H_
 #define OCEANBASE_COMMON_SERIALIZATION_H_
 #include <stdint.h>
-#include <string.h>
-#include <stdio.h>
+#include <cstring>
+#include <cstdio>
 #include "ob_define.h"
 #include "tbsys.h"
 namespace oceanbase

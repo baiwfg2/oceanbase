@@ -7,7 +7,7 @@
 #include "tblog.h"
 #include "common/ob_server.h"
 #include <mysql/mysql.h>
-#include <string.h>
+#include <cstring>
 
 /**
  * 读取OceanBase集群信息

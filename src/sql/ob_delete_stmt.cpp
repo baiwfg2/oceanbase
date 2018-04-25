@@ -1,5 +1,5 @@
 #include "ob_delete_stmt.h"
-#include <stdio.h>
+#include <cstdio>
 
 namespace oceanbase
 {

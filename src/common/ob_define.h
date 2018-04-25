@@ -15,11 +15,11 @@
 #define OCEANBASE_COMMON_OB_DEFINE_H_
 
 #include <stdint.h>
-#include <stdlib.h>
-#include <stdio.h>
-#include <string.h>
+#include <cstdlib>
+#include <cstdio>
+#include <cstring>
 #include <assert.h>
-#include <stdlib.h>
+#include <cstdlib>
 #include <openssl/md5.h>
 
 namespace oceanbase

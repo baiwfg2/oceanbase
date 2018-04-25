@@ -1,4 +1,4 @@
-#include <string.h>
+#include <cstring>
 #include "parse_malloc.h"
 #include "common/ob_define.h"
 #include "common/ob_string.h"

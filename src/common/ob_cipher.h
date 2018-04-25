@@ -17,9 +17,9 @@
 ////====================================================================
 #ifndef  OCEANBASE_COMMON_CIPHER_H_
 #define  OCEANBASE_COMMON_CIPHER_H_
-#include <stdlib.h>
+#include <cstdlib>
 #include <stdint.h>
-#include <stdio.h>
+#include <cstdio>
 #include <openssl/md5.h>
 #include "common/ob_define.h"
 #include "common/ob_string.h"

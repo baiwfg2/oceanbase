@@ -14,8 +14,8 @@
  *
  */
 #include <assert.h>
-#include <stdlib.h>
-#include <stdio.h>
+#include <cstdlib>
+#include <cstdio>
 #include <mysql/mysql.h>
 
 #define ASSERT_TRUE(x) do {if (!(x)) {fprintf(stderr, "assert `%s' fail at %s:%d\n", #x, __FILE__, __LINE__); exit(1);}} while (0)

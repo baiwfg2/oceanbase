@@ -17,7 +17,7 @@
 
 #include <stdint.h>
 #include <algorithm>
-#include <string.h>
+#include <cstring>
 
 #define OB_DEFAULT_CRC64_POLYNOM 0xD800000000000000ULL
 

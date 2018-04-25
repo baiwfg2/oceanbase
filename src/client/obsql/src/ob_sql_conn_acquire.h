@@ -22,7 +22,7 @@
 
 OB_SQL_CPP_START
 #include <pthread.h>
-#include <stdlib.h>
+#include <cstdlib>
 #include "ob_sql_list.h"
 #include "ob_sql_init.h"
 #include <pthread.h>

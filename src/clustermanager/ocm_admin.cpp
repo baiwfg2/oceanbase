@@ -15,9 +15,9 @@
  *
  */
  
-#include <stdio.h>
+#include <cstdio>
 #include <getopt.h>
-#include <stdlib.h>
+#include <cstdlib>
 #include <unistd.h>
 #include "common/ob_base_client.h"
 #include "common/ob_result.h"

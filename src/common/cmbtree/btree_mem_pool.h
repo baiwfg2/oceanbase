@@ -16,7 +16,7 @@
 #ifndef OCEANBASE_COMMON_CMBTREE_BTREE_MEM_POOL_H_
 #define OCEANBASE_COMMON_CMBTREE_BTREE_MEM_POOL_H_
 
-#include <stdlib.h>
+#include <cstdlib>
 #include "btree_default_alloc.h"
 #include "btree_tid.h"
 #include "btree_thread_store.h"

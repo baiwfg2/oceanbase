@@ -17,9 +17,9 @@
 ////====================================================================
 #ifndef  OCEANBASE_COMMON_ROW_COMPACTION_H_
 #define  OCEANBASE_COMMON_ROW_COMPACTION_H_
-#include <stdlib.h>
+#include <cstdlib>
 #include <stdint.h>
-#include <stdio.h>
+#include <cstdio>
 #include <pthread.h>
 #include <new>
 #include <typeinfo>

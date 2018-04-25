@@ -4,7 +4,7 @@
 #include <tbsys.h>
 #include "easy_io_struct.h"
 #include "easy_io.h"
-#include <string.h>
+#include <cstring>
 #include "ob_define.h"
 #include "ob_packet.h"
 #include "data_buffer.h"

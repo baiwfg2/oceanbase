@@ -2,7 +2,7 @@
 #define OCEANBASE_COMMON_SINGLE_SERVER_H_
 
 #include <tbsys.h>
-#include <string.h>
+#include <cstring>
 #include "ob_define.h"
 #include "ob_base_server.h"
 #include "ob_packet.h"

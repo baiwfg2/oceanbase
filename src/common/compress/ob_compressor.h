@@ -15,7 +15,7 @@
 #define  OCEANBASE_COMMON_COMPRESS_OB_COMPRESSOR_H_
 
 #include <stdint.h>
-#include <stdlib.h>
+#include <cstdlib>
 
 #define MAX_LIB_NAME_LENGTH 256
 

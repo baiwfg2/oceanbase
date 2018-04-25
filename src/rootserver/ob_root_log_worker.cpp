@@ -9,7 +9,7 @@
 *
 *
 ================================================================*/
-#include <stdlib.h>
+#include <cstdlib>
 #include "common/ob_malloc.h"
 #include "common/file_utils.h"
 #include "rootserver/ob_root_log_worker.h"

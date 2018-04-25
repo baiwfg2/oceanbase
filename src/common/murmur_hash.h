@@ -1,8 +1,8 @@
 #ifndef OCEANBASE_COMMON_MURMURHASH_H_
 #define OCEANBASE_COMMON_MURMURHASH_H_
 #include <stdint.h>
-#include <stdlib.h>
-#include <string.h>
+#include <cstdlib>
+#include <cstring>
 #include <string>
 namespace oceanbase
 {

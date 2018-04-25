@@ -10,7 +10,7 @@
  */
 #ifndef OCEANBASE_ROOTSERVER_OB_ROOTMETA2_H_
 #define OCEANBASE_ROOTSERVER_OB_ROOTMETA2_H_
-#include <stdio.h>
+#include <cstdio>
 
 #include "common/page_arena.h"
 #include "common/ob_tablet_info.h"

@@ -1,4 +1,4 @@
-#include <string.h>
+#include <cstring>
 #include "ob_define.h"
 #include "ob_probability_random.h"
 

@@ -19,7 +19,7 @@
 #include "ob_sql_define.h"
 
 OB_SQL_CPP_START
-#include <stdlib.h>
+#include <cstdlib>
 #include "ob_sql_struct.h"
 void dump_config(ObSQLGlobalConfig *config);
 void dump_table();

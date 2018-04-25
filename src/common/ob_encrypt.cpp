@@ -21,7 +21,7 @@
 #include "tblog.h"
 #include <crypt.h>
 #include <unistd.h>
-#include <stdlib.h>
+#include <cstdlib>
 namespace oceanbase
 {
   namespace common

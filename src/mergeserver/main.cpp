@@ -3,7 +3,7 @@
 #include "common/ob_malloc.h"
 #include "ob_merge_server_main.h"
 #include <malloc.h>
-#include <stdlib.h>
+#include <cstdlib>
 #include <time.h>
 #include "easy_pool.h"
 #include "tbsys.h"

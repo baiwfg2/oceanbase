@@ -1,8 +1,8 @@
-#include <string.h>
+#include <cstring>
 #include <stdarg.h>
 #include <time.h>
-#include <stdlib.h>
-#include <stdio.h>
+#include <cstdlib>
+#include <cstdio>
 #include <unistd.h>
 #include <sys/types.h>
 #include <sys/stat.h>

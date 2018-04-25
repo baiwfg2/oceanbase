@@ -47,7 +47,7 @@
 #include <stddef.h>
 #include <stdint.h>
 #include <malloc.h>
-#include <string.h>
+#include <cstring>
 #include <float.h>
 #include "ob_mysql_global.h"
 #include "common/ob_define.h"

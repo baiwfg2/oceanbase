@@ -19,8 +19,8 @@
 
 #ifndef  OCEANBASE_COMMON_HASH_SERIALIZATION_H_
 #define  OCEANBASE_COMMON_HASH_SERIALIZATION_H_
-#include <stdio.h>
-#include <stdlib.h>
+#include <cstdio>
+#include <cstdlib>
 #include <stdint.h>
 #include <sys/types.h>
 #include <sys/stat.h>

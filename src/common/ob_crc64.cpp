@@ -18,7 +18,7 @@
  *   yubai <yubai.lk@taobao.com>
  *
  */
-#include <stdlib.h>  
+#include <cstdlib>  
 #include "ob_crc64.h"  
 
 namespace oceanbase

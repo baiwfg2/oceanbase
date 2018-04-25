@@ -2,8 +2,8 @@
 #define OCEANBASE_COMMON_BTREE_TEST_TEST_KEY_H_
 
 #include <stdint.h>
-#include <string.h>
-#include <stdio.h>
+#include <cstring>
+#include <cstdio>
 #include <sys/time.h>
 
 /**

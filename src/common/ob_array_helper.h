@@ -1,7 +1,7 @@
 #ifndef OCEANBASE_COMMON_OB_ARRAY_HELPER_H_
 #define OCEANBASE_COMMON_OB_ARRAY_HELPER_H_
 #include <stdint.h>
-#include <stdlib.h>
+#include <cstdlib>
 #include "ob_define.h"
 
 namespace oceanbase

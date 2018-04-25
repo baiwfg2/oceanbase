@@ -1,10 +1,10 @@
-#include <stdio.h>
-#include <stdlib.h>
+#include <cstdio>
+#include <cstdlib>
 #include <stdarg.h>
 #include <mysql/mysql.h>
 #include <unistd.h>
 #include <errno.h>
-#include <string.h>
+#include <cstring>
 #include <pthread.h>
 #include "tblog.h"
 

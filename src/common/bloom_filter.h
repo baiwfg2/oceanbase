@@ -15,7 +15,7 @@
 #define OCEANBASE_COMMON_BASIC_BLOOM_FILTER_H_
 
 #include <limits.h>
-#include <string.h>
+#include <cstring>
 #include <algorithm>
 #include <cmath>
 #include "murmur_hash.h"

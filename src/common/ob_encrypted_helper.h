@@ -12,9 +12,9 @@
 
 #ifndef OB_ENCRYPTED_HELPER_
 #define OB_ENCRYPTED_HELPER_
-#include <stdio.h>
+#include <cstdio>
 #include <stdint.h>
-#include <string.h>
+#include <cstring>
 #include "ob_string.h"
 
 namespace oceanbase

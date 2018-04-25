@@ -1,9 +1,9 @@
-#include <stdio.h>
-#include <string.h>
+#include <cstdio>
+#include <cstring>
 #ifndef WIN32
 #include <sys/time.h>
 #endif
-#include <stdlib.h>
+#include <cstdlib>
 #include <errno.h>
 
 #include <curl/curl.h>

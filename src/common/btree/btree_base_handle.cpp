@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <cstdio>
 #include "btree_base_handle.h"
 #include "btree_root_pointer.h"
 

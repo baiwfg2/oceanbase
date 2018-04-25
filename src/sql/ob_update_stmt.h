@@ -1,7 +1,7 @@
 #ifndef OCEANBASE_SQL_UPDATESTMT_H_
 #define OCEANBASE_SQL_UPDATESTMT_H_
 #include "ob_stmt.h"
-#include <stdio.h>
+#include <cstdio>
 #include "common/ob_array.h"
 #include "common/ob_string.h"
 #include "common/ob_string_buf.h"

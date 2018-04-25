@@ -19,9 +19,9 @@
 
 #ifndef  OCEANBASE_COMMON_HASH_HASHTABLE_H_
 #define  OCEANBASE_COMMON_HASH_HASHTABLE_H_
-#include <stdlib.h>
+#include <cstdlib>
 #include <stdint.h>
-#include <stdio.h>
+#include <cstdio>
 #include <pthread.h>
 #include <new>
 #include "ob_hashutils.h"

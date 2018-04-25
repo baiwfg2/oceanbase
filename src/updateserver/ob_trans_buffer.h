@@ -20,9 +20,9 @@
 
 #ifndef  OCEANBASE_UPDATESERVER_TRANS_BUFFER_H_
 #define  OCEANBASE_UPDATESERVER_TRANS_BUFFER_H_
-#include <stdlib.h>
+#include <cstdlib>
 #include <stdint.h>
-#include <stdio.h>
+#include <cstdio>
 #include <pthread.h>
 #include <new>
 #include <algorithm>

@@ -1,6 +1,6 @@
 #include "ob_sql_character_set.h"
 #include <strings.h>
-#include <stdio.h>
+#include <cstdio>
 #include "common/ob_define.h"
 namespace oceanbase
 {

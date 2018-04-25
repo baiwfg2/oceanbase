@@ -7,7 +7,7 @@
 #include "btree_base.h"
 #include "thread.h"
 #include <sys/time.h>
-#include <stdlib.h>
+#include <cstdlib>
 
 
 using namespace oceanbase::common::cmbtree;

@@ -10,7 +10,7 @@
  *
  ================================================================*/
 #include <algorithm>
-#include <stdlib.h>
+#include <cstdlib>
 #include "rootserver/ob_root_table2.h"
 #include "rootserver/ob_chunk_server_manager.h"
 #include "common/ob_record_header.h"

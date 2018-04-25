@@ -11,7 +11,7 @@
  *
  ================================================================*/
 #include <new>
-#include <string.h>
+#include <cstring>
 #include <cmath>
 #include <tbsys.h>
 

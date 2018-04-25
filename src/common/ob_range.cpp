@@ -17,7 +17,7 @@
 
 #include "ob_range.h"
 #include <tbsys.h>
-#include <string.h>
+#include <cstring>
 #include "utility.h"
 #include "ob_string_buf.h"
 

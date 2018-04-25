@@ -14,7 +14,7 @@
  *   zhidong sun <xielun.szd@alipay.com>
  *
  */
-#include <stdio.h>
+#include <cstdio>
 #include "ob_root_bootstrap.h"
 #include "ob_root_server2.h"
 #include "common/ob_encrypted_helper.h"

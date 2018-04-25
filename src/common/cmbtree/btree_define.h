@@ -18,9 +18,9 @@
 
 #include <assert.h>
 #include <stdint.h>
-#include <string.h>
-#include <stdlib.h>
-#include <stdio.h>
+#include <cstring>
+#include <cstdlib>
+#include <cstdio>
 #include <pthread.h>
 #include <tblog.h>
 #include "btree_default_alloc.h"

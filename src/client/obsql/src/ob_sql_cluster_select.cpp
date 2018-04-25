@@ -1,7 +1,7 @@
 #include "ob_sql_mysql_adapter.h"
 #include "ob_sql_cluster_select.h"
 #include <algorithm>
-#include <stdlib.h>
+#include <cstdlib>
 #include "ob_sql_atomic.h"
 #include "ob_sql_global.h"
 #include "common/ob_atomic.h"

@@ -9,9 +9,9 @@
  * Authors: 
  *    Wu Di <lide.wd@alipay.com>
  */
-#include <stdio.h>
+#include <cstdio>
 #include <stdint.h>
-#include <string.h>
+#include <cstring>
 #include "ob_encrypted_helper.h"
 
 using namespace oceanbase;

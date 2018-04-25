@@ -13,7 +13,7 @@
  *   Liangjie Li <liangjie.li@alipay.com>
  *
  */
-#include <stdio.h>
+#include <cstdio>
 #include "common/ob_version.h"
 #include "tblog.h"
 

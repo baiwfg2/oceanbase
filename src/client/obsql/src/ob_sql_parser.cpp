@@ -2,8 +2,8 @@
 #include "ob_sql_parser.h"
 #include <strings.h>
 #include <ctype.h>
-#include <string.h>
-#include <stdlib.h>
+#include <cstring>
+#include <cstdlib>
 
 using namespace std;
 using namespace oceanbase::common;

@@ -12,7 +12,7 @@
 #ifndef OCEANBASE_COMMON_LIMIT_ARRAY_H_
 #define OCEANBASE_COMMON_LIMIT_ARRAY_H_
 #include <stdint.h>
-#include <stdlib.h>
+#include <cstdlib>
 #include <assert.h>
 
 #include <tblog.h>

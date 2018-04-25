@@ -1,5 +1,5 @@
 #include <assert.h>
-#include <stdlib.h>
+#include <cstdlib>
 #include "dlist.h"
 #include "tbsys.h"
 namespace oceanbase

@@ -1,17 +1,17 @@
- #include "tblog.h"
- #include "common/ob_define.h"
- #include "common/ob_malloc.h"
- #include "ob_sql_conn_acquire.h"
- #include "ob_sql_util.h"
- #include "ob_sql_data_source_utility.h"
- #include <stdio.h>
- #include <stddef.h>
- #include <string.h>
+#include "tblog.h"
+#include "common/ob_define.h"
+#include "common/ob_malloc.h"
+#include "ob_sql_conn_acquire.h"
+#include "ob_sql_util.h"
+#include "ob_sql_data_source_utility.h"
+#include <cstdio>
+#include <stddef.h>
+#include <cstring>
 
- using namespace oceanbase::common;
+using namespace oceanbase::common;
 
- /* 连接池的互斥锁 */
- pthread_mutex_t pool_mutex;
+/* 连接池的互斥锁 */
+pthread_mutex_t pool_mutex;
 
 static ObDataSource* select_ds(ObClusterInfo *cluster, const char* sql, unsigned long length, ObSQLMySQL *mysql)
  {

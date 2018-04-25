@@ -19,9 +19,9 @@
 
 #ifndef  OCEANBASE_UPDATESERVER_MEMTANK_H_
 #define  OCEANBASE_UPDATESERVER_MEMTANK_H_
-#include <stdlib.h>
+#include <cstdlib>
 #include <stdint.h>
-#include <stdio.h>
+#include <cstdio>
 #include <pthread.h>
 #include <new>
 #include <bitset>

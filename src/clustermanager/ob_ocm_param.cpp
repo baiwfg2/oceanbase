@@ -16,8 +16,8 @@
  */
 
 #include "ob_ocm_param.h"
-#include <stdlib.h>
-#include <stdio.h>
+#include <cstdlib>
+#include <cstdio>
 namespace 
 {
   const char* OBCM_SECTION = "cluster_manager";

@@ -14,7 +14,7 @@
  *
  */
 
-#include <string.h>
+#include <cstring>
 #include "ob_change_obi.h"
 #include "ob_sql.h"
 

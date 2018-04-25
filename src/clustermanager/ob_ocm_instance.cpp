@@ -17,8 +17,8 @@
 
 #include "ob_ocm_instance.h"
 #include "tblog.h"
-#include <stdio.h>
-#include <string.h>
+#include <cstdio>
+#include <cstring>
 
 using namespace oceanbase::common;
 namespace oceanbase

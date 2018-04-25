@@ -4,9 +4,9 @@
 #include "ob_sql_select_method_impl.h"
 #include "ob_sql_ms_select.h"
 #include "ob_sql_util.h"
-#include <stdlib.h>
+#include <cstdlib>
 #include <stddef.h>
-#include <string.h>
+#include <cstring>
 #include <errno.h>
 
 static bool is_same_server(ObDataSource *ds, ObServerInfo *server)

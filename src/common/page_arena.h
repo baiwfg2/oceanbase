@@ -2,9 +2,9 @@
 #ifndef OCEANBASE_COMMON_PAGE_ARENA_H_
 #define OCEANBASE_COMMON_PAGE_ARENA_H_
 
-#include <stdlib.h>
+#include <cstdlib>
 #include <assert.h>
-#include <string.h>
+#include <cstring>
 #include "ob_define.h"
 #include "ob_malloc.h"
 #include "ob_mod_define.h"

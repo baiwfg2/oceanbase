@@ -1,6 +1,6 @@
 #include "ob_insert_stmt.h"
-#include <stdio.h>
-#include <stdlib.h>
+#include <cstdio>
+#include <cstdlib>
 
 using namespace oceanbase::common;
 using namespace oceanbase::sql;

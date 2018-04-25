@@ -1,4 +1,4 @@
-#include <string.h>
+#include <cstring>
 #include "ob_mysql_loginer.h"
 #include "packet/ob_mysql_ok_packet.h"
 #include "packet/ob_mysql_error_packet.h"

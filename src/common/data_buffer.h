@@ -2,7 +2,7 @@
 
 #define OCEANBASE_COMMON_OB_DATA_BUFFER_H_
 #include <stdint.h>
-#include <stdlib.h>
+#include <cstdlib>
 
 namespace oceanbase
 {

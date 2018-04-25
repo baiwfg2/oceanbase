@@ -12,8 +12,8 @@
  *
  */
 #include <new>
-#include <string.h>
-#include <stdio.h>
+#include <cstring>
+#include <cstdio>
 #include "lzo_compressor.h"
 #include "lzo/lzo1x.h"
 

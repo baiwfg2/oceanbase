@@ -6,7 +6,7 @@
 #include "ob_sql_global.h"
 #include "ob_sql_list.h"
 #include "ob_sql_util.h"
-#include <stdio.h>
+#include <cstdio>
 #include <stddef.h>
 
 using namespace oceanbase::common;

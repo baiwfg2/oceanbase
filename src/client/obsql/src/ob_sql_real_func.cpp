@@ -1,7 +1,7 @@
 #include <dlfcn.h>
 #include "ob_sql_real_func.h"
-#include <stdio.h>
-#include <stdlib.h>
+#include <cstdio>
+#include <cstdlib>
 #include "ob_sql_global.h"
 #include "tblog.h"
 unsigned long native_client_version;

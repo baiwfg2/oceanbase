@@ -5,7 +5,7 @@
 #include "ob_sql_update_worker.h"
 #include "ob_sql_util.h"
 #include "common/ob_malloc.h"
-#include <string.h>
+#include <cstring>
 #include <malloc.h>
 
 using namespace std;
