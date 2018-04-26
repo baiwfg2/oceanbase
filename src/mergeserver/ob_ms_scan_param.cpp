@@ -12,7 +12,7 @@
  *
  */
 #include "ob_ms_scan_param.h"
-#include <math.h>
+#include <cmath>
 using namespace oceanbase;
 using namespace oceanbase::common;
 using namespace oceanbase::mergeserver;

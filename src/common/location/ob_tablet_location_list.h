@@ -91,6 +91,10 @@ namespace oceanbase
       /// serailize or deserialization
       NEED_SERIALIZE_AND_DESERIALIZE;
 
+      template <typename T>
+      T _abs(T t) {
+          return t > 0 ? t : -t;
+      }
     private:
       int64_t cur_count_;
       int64_t timestamp_;

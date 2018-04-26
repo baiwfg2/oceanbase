@@ -14,7 +14,7 @@
  *
  */
 
-#include <math.h>
+#include <cmath>
 #include "ob_update_server_config.h"
 #include "common/compress/ob_compressor.h"
 #include "ob_memtank.h"

@@ -14,7 +14,7 @@
  *     - some work details if you want
  *
  */
-#include <math.h>
+#include <cmath>
 #include "common/ob_trace_log.h"
 #include "common/serialization.h"
 #include "common/utility.h"

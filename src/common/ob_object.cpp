@@ -1,6 +1,6 @@
 #include <cstring>
 #include <algorithm>
-#include <math.h>
+#include <cmath>
 
 #include "ob_object.h"
 #include "serialization.h"
